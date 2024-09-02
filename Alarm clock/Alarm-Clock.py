@@ -58,7 +58,7 @@ secTime = Entry(clock, textvariable=sec, bg="powderblue",
 set_alarm = Button(clock, text="Set Alarm", fg="green", activebackground="grey", activeforeground="darkgreen", width=10, font=(
     "Arial", 15, 'bold'), command=actual_time).place(x=200, y=150)
 
-photo = PhotoImage(file="Alarm Clock/alarm.png")
+photo = PhotoImage(file="alarm.png")
 clock.iconphoto(False, photo)
 
 
